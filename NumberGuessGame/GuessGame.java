@@ -7,7 +7,7 @@ public class GuessGame {
 		p1 = new Player();
 		p2 = new Player();
 		p3 = new Player();
-		targetNum = (int) Math.random() * 10;
+		targetNum = (int) (Math.random() * 10);
 		System.out.println("The target number is: " + targetNum);
 		while (true) {
 			System.out.println("A new round now start!");
